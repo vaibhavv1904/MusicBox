@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+  }
+  
+  .gotpage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 50px 0px 30px 0px;
+    color: #d3d160;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .player
+  {
+      background-color: teal;
+      opacity: .8;
+  }
+  .player:hover
+  {
+      background-color: teal;
+      opacity: 1;
+  }

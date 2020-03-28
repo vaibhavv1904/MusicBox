@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+  }
+  
+  .app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 50px 0px 30px 0px;
+    color: #d3d160;
+    text-align: center;
+    font-size: 40px;
+  }
+  header p {
+    font-size: 25px;
+    text-align: center;
+    color:dodgerblue;
+  }
+  .pads p 
+  {
+      color: white;
+  }
+  .pads {
+    background: white;
+    display: inline;
+    text-align: center;
+    padding: 20px;
+  }
+  .pads > div {
+    height: 100px;
+    width: 48%;
+    border-radius: 100px;
+    opacity: .8;
+  }
+  .pad1 {
+    background: #60d394;
+    float: left;
+    padding: 40px;
+  }
+  .pad1:hover
+  {
+      background-color: #10a553;
+      opacity: 1;
+  }
+  .pad2 {
+    background: #d36060;
+    float: right;
+    padding: 35px;
+  }
+  .pad2:hover {
+    background: #742626;
+    opacity: 1;
+  }
+  .pad3 {
+    background: #c060d3;
+    float: left;
+    padding: 40px;
+  }
+  .pad3:hover {
+    background: #9134a3;
+    opacity: 1;
+  }
+  .pad4 {
+    background: #d3d160;
+    float: right;
+    padding: 37px;
+  }
+  .pad4:hover {
+    background: #949230;
+    opacity: 1;
+  }
+  .pad5 {
+    background: #606bd3;
+    float: left;
+    padding: 40px;
+  }
+  .pad5:hover {
+    background: #343e9c;
+    opacity: 1;
+  }
+  .pad6 {
+    background: #60c2d3;
+    float: right;
+    padding: 33px;
+  }
+  .pad6:hover {
+    background: #368c9b;
+    opacity: 1;
+  }
+  
+  
+  /* .visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left:20%;
+    bottom:0%;
+    z-index: -1;
+  } */
+  
+  /* @keyframes jump {
+    0% {
+      bottom: 0%;
+      left: 20%;
+    }
+    50% {
+      bottom: 50%;
+      left: 50%;
+    }
+  
+    100% {
+      bottom: 00%;
+      left: 80%;
+    }
+  } */
+  
+  
