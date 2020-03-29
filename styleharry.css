@@ -11,11 +11,10 @@
   
   .harrypage {
     min-height: 100vh;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-left: 500px;
-    padding-right: 500px;
   }
   
   header h1 {
@@ -26,26 +25,23 @@
   }
 
 
-  .player
+  #player
   {
       background-color: teal;
       opacity: .8;
-      text-align: center;
   }
-  .player:hover
+  #player:hover
   {
       background-color: teal;
       opacity: 1;
   }
-  .player1
+  #player1
   {
-    background-color:teal;
-    text-align: center;
-    opacity: .8;
+      background-color: teal;
+      opacity: .8;
   }
-  .player1:hover
+  #player1:hover
   {
       background-color: teal;
       opacity: 1;
   }
-  

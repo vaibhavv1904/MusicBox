@@ -24,12 +24,22 @@
     font-size: 40px;
   }
 
-  .player
+  #player
   {
       background-color: teal;
       opacity: .8;
   }
-  .player:hover
+  #player:hover
+  {
+      background-color: teal;
+      opacity: 1;
+  }
+  #player1
+  {
+      background-color: teal;
+      opacity: .8;
+  }
+  #player1:hover
   {
       background-color: teal;
       opacity: 1;
