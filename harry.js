@@ -3,21 +3,18 @@ var maxtime = 0;
 var elapsedtime = 0;
 var interval;
 window.addEventListener("load", () => {
-    const sound = document.getElementById(".sound");
-    const reset = document.querySelector(".player1");
-    document.querySelector(".player").addEventListener("click",OnPlayerClick);
+    const sound = document.getElementById("sound");
+    const reset = document.getElementById("player1");
+    document.getElementById("player").addEventListener("click",OnPlayerClick);
     interval = setInterval(timeCheck,500);
+    reset.addEventListener("click",() =>{
+        sound.load();
+        isplaying = 0;
+        maxtime = 0;
+        elapsedtime = 0;
+    });
 });
 
-// reset.addEventListener("click",resetit);
-// function resetit()
-// {
-//     sound.load();
-//     sound.currentTime() = 0;
-//     isplaying = 0;
-//     maxtime = 0;
-//     elapsedtime = 0;
-// }
 function OnPlayerClick()
 {
     if(!isplaying)
@@ -26,7 +23,6 @@ function OnPlayerClick()
         isplaying = true;
     }
     maxtime++;
-    // sound.play();
 }
 
 function timeCheck()
