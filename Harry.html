@@ -7,23 +7,29 @@
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style/styleharry.css" />
+    <!-- <link rel="stylesheet" href="style/styleharry.css" /> -->
+    <link rel="stylesheet" href="style/style.css" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Harry ka suno</title>
   </head>
   <body>
-      <section class="harrypage">
+    <div class = "container">
+      <div class = "top">
           <header>
               <h1>Welcome To Hogwards</h1>
           </header>
-          <div id="player">
-              <p>player</p>
+      </div>
+      <!-- <img src = img/harry.jpg class = "poster"> -->
+      <section class="harrypage">
+          <div id="player" class = "button">
+              <p>Player</p>
               <audio src="mp3/harry.mp3" id="sound"></audio>
           </div>
-          <div id="player1">
-             <p>reset</p>
+          <div id="player1" class = "button">
+             <p>Reset</p>
           </div>
       </section>
+    </div>
     <script src="script/harry.js"></script>
   </body>
 </html>
