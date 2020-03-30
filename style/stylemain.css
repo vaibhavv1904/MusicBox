@@ -6,7 +6,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: white;
+  background-color: rgb(35, 35, 35);
 }
 
 .app {
@@ -25,6 +25,8 @@ a {
   height: 100px;
   width: 48%;
   border-radius: 100px;
+  border-style: solid;
+  border-color: #d3d160;;
 }
 
 header h1 {
@@ -41,11 +43,11 @@ header p {
 }
 
 .pads p {
-  color: white;
+  color: black;
 }
 
 .pads {
-  background: white;
+  background-color: rgb(35, 35, 35);
   display: inline;
   text-align: center;
   padding: 20px;
@@ -54,97 +56,71 @@ header p {
 .pads>div {
   height: 100px;
   width: 48%;
-  border-radius: 100px;
-  opacity: .8;
+  opacity: .4;
 }
 
 .pad1 {
-  background: #60d394;
+  background: rgb(150,150,150);
   float: left;
   padding: 40px;
 }
 
 .pad1:hover {
-  background-color: #10a553;
+  background: rgb(50,50,50);
   opacity: 1;
 }
 
 .pad2 {
-  background: #d36060;
+  background: rgb(150,150,150);
   float: right;
   padding: 35px;
 }
 
 .pad2:hover {
-  background: #742626;
+  background: rgb(50,50,50);
   opacity: 1;
 }
 
 .pad3 {
-  background: #c060d3;
+  background: rgb(150,150,150);
   float: left;
   padding: 40px;
 }
 
 .pad3:hover {
-  background: #9134a3;
+  background: rgb(50,50,50);
   opacity: 1;
 }
 
 .pad4 {
-  background: #d3d160;
+  background: rgb(150,150,150);
   float: right;
   padding: 37px;
 }
 
 .pad4:hover {
-  background: #949230;
+  background: rgb(50,50,50);
   opacity: 1;
 }
 
 .pad5 {
-  background: #606bd3;
+  background: rgb(150,150,150);
   float: left;
   padding: 40px;
 }
 
 .pad5:hover {
-  background: #343e9c;
+  background: rgb(50,50,50);
   opacity: 1;
 }
 
 .pad6 {
-  background: #60c2d3;
+  background: rgb(150,150,150);
   float: right;
   padding: 33px;
 }
 
 .pad6:hover {
-  background: #368c9b;
+  background: rgb(50,50,50);
   opacity: 1;
 }
-
-/* .visual > div {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    bottom: 0%;
-    left:20%;
-    bottom:0%;
-    z-index: -1;
-  } */
-/* @keyframes jump {
-    0% {
-      bottom: 0%;
-      left: 20%;
-    }
-    50% {
-      bottom: 50%;
-      left: 50%;
-    }
-    100% {
-      bottom: 00%;
-      left: 80%;
-    }
-  } */
