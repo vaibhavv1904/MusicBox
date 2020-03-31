@@ -31,7 +31,8 @@ header h1{
 
 .button1 {
   padding: 20px 10px 20px 10px;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('play.jpg');
   width: 20%;
   color : #d3d160;
   margin:auto;
@@ -43,7 +44,8 @@ header h1{
 }
 .button2 {
   padding: 20px 10px 20px 10px;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('play.jpg');
   width: 20%;
   color : #d3d160;
   margin:auto;
