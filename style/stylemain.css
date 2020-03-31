@@ -26,12 +26,12 @@ a {
   width: 48%;
   border-radius: 100px;
   border-style: solid;
-  border-color: #d3d160;;
+  border-color: rgb(200,200,200);
 }
 
 header h1 {
   margin: 50px 0px 30px 0px;
-  color: #d3d160;
+  color: #f3f175;
   text-align: center;
   font-size: 40px;
 }
@@ -39,11 +39,11 @@ header h1 {
 header p {
   font-size: 25px;
   text-align: center;
-  color: rgb(14, 230, 165);
+  color: rgb(220,220,220);
 }
 
 .pads p {
-  color: black;
+  color: #f3f175;
 }
 
 .pads {
@@ -59,67 +59,67 @@ header p {
 }
 
 .pad1 {
-  background: rgb(150,150,150);
+  /* background: rgb(50,50,50); */
   float: left;
   padding: 40px;
 }
 
 .pad1:hover {
-  background: rgb(50,50,50);
+  background: rgb(25,25,25);
   opacity: 1;
 }
 
 .pad2 {
-  background: rgb(150,150,150);
+  /* background: rgb(50,50,50); */
   float: right;
   padding: 35px;
 }
 
 .pad2:hover {
-  background: rgb(50,50,50);
+  background: rgb(25,25,25);
   opacity: 1;
 }
 
 .pad3 {
-  background: rgb(150,150,150);
+  /* background: rgb(50,50,50); */
   float: left;
   padding: 40px;
 }
 
 .pad3:hover {
-  background: rgb(50,50,50);
+  background: rgb(25,25,25);
   opacity: 1;
 }
 
 .pad4 {
-  background: rgb(150,150,150);
+  /* background: rgb(50,50,50); */
   float: right;
   padding: 37px;
 }
 
 .pad4:hover {
-  background: rgb(50,50,50);
+  background: rgb(25,25,25);
   opacity: 1;
 }
 
 .pad5 {
-  background: rgb(150,150,150);
+  /* background: rgb(50,50,50); */
   float: left;
   padding: 40px;
 }
 
 .pad5:hover {
-  background: rgb(50,50,50);
+  background: rgb(25,25,25);
   opacity: 1;
 }
 
 .pad6 {
-  background: rgb(150,150,150);
+  /* background: rgb(50,50,50); */
   float: right;
   padding: 33px;
 }
 
 .pad6:hover {
-  background: rgb(50,50,50);
+  background: rgb(25,25,25);
   opacity: 1;
 }
