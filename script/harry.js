@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
     const sound = document.getElementById("sound");
     const reset = document.getElementById("player1");
     document.getElementById("player").addEventListener("click",OnPlayerClick);
-    interval = setInterval(timeCheck,500);
+    interval = setInterval(timeCheck,600);
     reset.addEventListener("click",() =>{
         sound.load();
         isplaying = 0;
