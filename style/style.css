@@ -36,22 +36,23 @@ header h1{
 }
 .button1 {
   padding: 20px 10px 20px 10px;
-  width: 15%;
-  color : #d3d160;
+  width: 30%;
   margin:auto;
-  margin-top: 350px;
+  margin-top: 270px;
   text-align: center;
-  font-weight: 800;
-  border-radius: 100px;
+}
+.button1 img{
+  width: inherit;
 }
 .button2 {
   padding: 20px 10px 20px 10px;
-  background-color: black;
-  width: 18%;
-  color : #d3d160;
+  width: 30%;
   margin:auto;
-  margin-top: 30px;
+  /* margin-top: 20px; */
   text-align: center;
-  font-weight: 800;
-  border-radius: 100px;
+  opacity: 0.6;
+}
+
+.button2 img{
+  width: inherit;
 }

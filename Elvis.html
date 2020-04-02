@@ -1,64 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway"
-      rel="stylesheet"
-    />
-    <!-- <link rel="stylesheet" href="style/stylelvis.css" /> -->
-    <link rel="stylesheet" href="style/style.css" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>?</title>
-  </head>
-  <style>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="style/stylelvis.css" /> -->
+  <link rel="stylesheet" href="style/style.css" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>?</title>
+</head>
+<style>
   body {
     background-image: url('img/llast.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
   }
-  </style>
-  <body>
-    <div class = "container">
-      <div class = "top">
-        <header>
-            <h1 style="color: black;">Melody Suno Khud Jaan Jaao</h1>
-        </header>
+</style>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <header>
+        <h1 style="color: black;">Melody Suno Khud Jaan Jaao</h1>
+      </header>
+    </div>
+    <section class="elvispage">
+      <div id="player" class="button1">
+        <img src="img/mainplay.png">
+
+        <audio src="mp3/elvis.mp3" id="sound"></audio>
       </div>
-      <section class="elvispage">
-          <div id="player" class="button1">
-            <style>
-              .button1
-              {
-                background-image: url('img/mainplay.png');
-                background-size: 100% 100%;
-              }
-            </style>
-              <audio src="mp3/elvis.mp3" id="sound"></audio>
-            </div>
-            <div id="player1" class="button2">
-              <style>
-                .button2
-                {
-                  background-image: url('img/reset.jpeg');
-                  background-size: 100% 100%;
-                }
-              </style>
-            </div>
-            <div id = "instruction">
-              <style>
-                #instruction
-                {
-                  align-items: center;
-                  padding-left: 100px;
-                  padding-top: 30px;
-                  color: black;
-                }
-              </style>
-              <p>follow the beats or make the beats follow you</p>
-              </div>
-      </section>
-      <script src="script/harry.js"></script>
-  </body>
+      <div id="player1" class="button2">
+        <img src="img/reset.png">
+      </div>
+      <div class="instruction">
+        </style>
+        <p>follow the beats or make the beats follow you</p>
+      </div>
+    </section>
+    <script src="script/harry.js"></script>
+</body>
+
 </html>
