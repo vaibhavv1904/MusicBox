@@ -6,7 +6,9 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background-attachment: fixed;
   background-color: white;
+  background-repeat: no-repeat;
 }
 
 header h1{
@@ -36,7 +38,7 @@ header h1{
 }
 .button1 {
   padding: 20px 10px 20px 10px;
-  width: 30%;
+  width: 40%;
   margin:auto;
   margin-top: 270px;
   text-align: center;
@@ -46,7 +48,7 @@ header h1{
 }
 .button2 {
   padding: 20px 10px 20px 10px;
-  width: 30%;
+  width: 40%;
   margin:auto;
   /* margin-top: 20px; */
   text-align: center;
