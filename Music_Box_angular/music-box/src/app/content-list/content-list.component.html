@@ -1,0 +1,10 @@
+<br><br><br>
+<div>
+    <mat-list>
+        <mat-list-item  *ngFor="let item of currentList;let i = index" (click)="nav(i)">
+            <h3 mat-line>{{item[0]}}</h3>
+            <p style="color: #b8b8b8;" mat-line>{{item[1]}}</p>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+    </mat-list>
+</div>

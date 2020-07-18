@@ -1,0 +1,66 @@
+  <br><br><br>
+  <div>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>
+        The Realm Of Anime
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        discription
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <mat-icon [color] = "!isliked1?'primary':'accent'" (click)="change(1)" style="vertical-align: middle;">
+        favorite
+      </mat-icon>
+      <button (click) = "nav(0)" mat-raised-button color = "primary">
+        Visit
+      </button>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>
+        The Realm Of Fantasy
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        discription
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <mat-icon [color] = "!isliked2?'primary':'accent'" (click)="change(2)" style="vertical-align: middle;">
+        favorite
+      </mat-icon>
+      <button (click) = "nav(1)" mat-raised-button color = "primary">
+        Visit
+      </button>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>
+        The Realm Of Harmony
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        discription
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <mat-icon [color] = "!isliked3?'primary':'accent'" (click)="change(3)" style="vertical-align: middle;">
+        favorite
+      </mat-icon>
+      <button (click) = "nav(2)" mat-raised-button color = "primary">
+        Visit
+      </button>
+    </mat-card-actions>
+  </mat-card>
+  </div>
