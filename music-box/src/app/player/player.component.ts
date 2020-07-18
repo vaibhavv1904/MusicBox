@@ -26,7 +26,7 @@ export class PlayerComponent implements OnInit {
     this.contentId = this.route.snapshot.params['id'];
     this.currContent = this.allContent[this.contentId];
     this.song = <HTMLAudioElement> document.getElementById('music');
-    this.interval = setInterval(this.timeCheck,600);
+    this.interval = setInterval(() => {this.timeCheck();},600);
   }
   play()
   {
