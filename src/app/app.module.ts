@@ -24,6 +24,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { ContentListComponent } from './content-list/content-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { PlayerComponent } from './player/player.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { PlayerComponent } from './player/player.component';
     MatSnackBarModule,
     MatDatepickerModule,
     MatSidenavModule,
-    MatTabsModule
+    MatTabsModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,6 +2,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import {content} from '../constants';
 import { Router, ActivatedRoute, } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-player',
@@ -12,7 +13,8 @@ export class PlayerComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    @Inject(DOCUMENT) document
+    @Inject(DOCUMENT) document,
+    private snackBar: MatSnackBar
   ) { }
   contentId:number;
   allContent = content;
@@ -22,26 +24,36 @@ export class PlayerComponent implements OnInit {
   maxtime:number = 0;
   elapsedtime:number = 0;
   interval:any;
+  lengthPlayed:number = 0;
   ngOnInit(): void {
+    this.lengthPlayed = 0;
     this.contentId = this.route.snapshot.params['id'];
     this.currContent = this.allContent[this.contentId];
     this.song = <HTMLAudioElement> document.getElementById('music');
     this.interval = setInterval(() => {this.timeCheck();},600);
+    this.snackBar.open('please press the play button repeatedly', '', {
+      duration: 3000,
+      verticalPosition: 'top',
+      panelClass: 'snack-bar'
+    });
   }
   play()
   {
-      if(!this.isplaying)
-      {
-          this.song.play();
-          this.isplaying = true;
-      }
-      this.maxtime++;
+    this.lengthPlayed = (this.song.currentTime/this.song.duration)*100;
+    console.log(this.lengthPlayed);
+    if(!this.isplaying)
+    {
+        this.song.play();
+       this.isplaying = true;
+    }
+    this.maxtime++;
   }
   refresh(id:string) {
     this.song.load();
     this.isplaying = false;
     this.maxtime = 0;
     this.elapsedtime = 0;
+    this.lengthPlayed = 0;
   }
   timeCheck()
   {

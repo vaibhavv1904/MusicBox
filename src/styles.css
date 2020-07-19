@@ -4,3 +4,11 @@ body {
      margin: 0; 
      font-family: Roboto, "Helvetica Neue", sans-serif;
      }
+.snack-bar{
+     background-color: #020344  !important;
+     color: white !important;
+     }
+.cdk-overlay-container {
+     position: fixed;
+     z-index: 10000;
+   }
