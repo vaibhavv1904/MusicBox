@@ -5,7 +5,8 @@
 </div>
 <mat-toolbar class="toolbar" color="primary">
     <button (click)="play()" style="margin-left: 37%;" mat-icon-button>
-        <mat-icon >play_circle_outline</mat-icon>
+        <mat-icon *ngIf="isplaying">pause_circle_outline</mat-icon>
+        <mat-icon *ngIf="!isplaying">play_circle_outline</mat-icon>
     </button>
     <button (click)="refresh()" style="margin-left: 10px;" mat-icon-button>
         <mat-icon >refresh</mat-icon>

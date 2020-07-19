@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import {content} from '../constants';
-import { Router, ActivatedRoute, } from '@angular/router';
+import { ActivatedRoute, } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import {MatSnackBar} from '@angular/material/snack-bar';
 
@@ -40,7 +40,6 @@ export class PlayerComponent implements OnInit {
   play()
   {
     this.lengthPlayed = (this.song.currentTime/this.song.duration)*100;
-    console.log(this.lengthPlayed);
     if(!this.isplaying)
     {
         this.song.play();
@@ -48,7 +47,7 @@ export class PlayerComponent implements OnInit {
     }
     this.maxtime++;
   }
-  refresh(id:string) {
+  refresh() {
     this.song.load();
     this.isplaying = false;
     this.maxtime = 0;

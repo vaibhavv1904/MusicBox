@@ -25,13 +25,15 @@ import { ContentListComponent } from './content-list/content-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { PlayerComponent } from './player/player.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { Player2Component } from './player2/player2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContentListComponent,
     HomePageComponent,
-    PlayerComponent
+    PlayerComponent,
+    Player2Component
   ],
   imports: [
     BrowserModule,

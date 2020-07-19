@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    height: 80%;
+}
+.toolbar {
+    position: absolute;
+    bottom:4%;
+}
+.bar {
+    position: absolute;
+    bottom: 14%;
+    left: 0%;
+}

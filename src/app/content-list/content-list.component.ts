@@ -32,5 +32,15 @@ export class ContentListComponent implements OnInit {
     }
     this.router.navigate(['/player/'+this.playerId]);
   }
+  nav1(id:number) {
+    if(this.contentId == 0) {
+      this.playerId = id;
+    } else if(this.contentId == 1) {
+      this.playerId = 6+id;
+    } else {
+      this.playerId = 12+id;
+    }
+    this.router.navigate(['/player2/'+this.playerId]);
+  }
 
 }
