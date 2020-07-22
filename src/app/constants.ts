@@ -4,7 +4,7 @@ export let animeList = [
     ['Again','Fullmetal alchemist','assets/anime3.png'],
     ['Sparkle','Your Name','assets/anime4.png'],
     ['A town with an ocean view','Kikis delivery service','assets/anime5.jpg'],
-    ['Kira theme','Death Note','assets/anime6.png']
+    ['Uchiage Hanabi','Fireworks','assets/anime6.png']
 ]
 export let fantasyList = [
     ['Hedwigs Theme','Harry Potter','assets/fan1.jpg'],
@@ -28,10 +28,10 @@ export let content = [
     ['assets/content3.jpg','assets/again.mp3'],
     ['assets/content4.jpg','assets/sparkle.mp3'],
     ['assets/content5.jpg','assets/kiki.mp3'],
-    ['assets/content6.jpg','assets/kira.mp3'],
+    ['assets/content6.jpg','assets/hanabi.mp3'],
     ['assets/content7.jpg','assets/harry.mp3'],
     ['assets/content8.jpg','assets/davy.mp3'],
-    ['assets/content9.png','assets/got.mp3'],
+    ['assets/content9.jpg','assets/got.mp3'],
     ['assets/content10.jpg','assets/witcher.mp3'],
     ['assets/content11.jpg','assets/frozen.mp3'],
     ['assets/content12.jpg','assets/narnia.mp3'],

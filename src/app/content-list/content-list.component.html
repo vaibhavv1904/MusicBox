@@ -1,17 +1,21 @@
-<br><br><br>
-<div>
+<br><br>
+<div style="margin-top: 4%;">
     <mat-list>
         <mat-list-item  *ngFor="let item of currentList;let i = index">
-            <img mat-list-avatar style="width: 60px;height: 60px;" [src]="item[2]">
-            <h3 mat-line>{{item[0]}}</h3>
+            <img mat-list-avatar style="width: 70px;height: 70px;" [src]="item[2]">
+            <h3 mat-line style="padding-top: 10px;">{{item[0]}}</h3>
             <p style="color: #b8b8b8;" mat-line>{{item[1]}}</p>
-            <div mat-line>
-                <button (click)="nav(i)" class="togglebtn" mat-raised-button color = "primary">
-                    music box mode
-                </button>
-                <button (click)="nav1(i)" class="togglebtn" mat-raised-button color = "secondary">
-                    Listening mode
-                </button>
+            <div mat-line style="padding-bottom: 20px;">
+                <div>
+                    <button (click)="nav(i)" style="width: 45%;padding:2px"
+                    class="togglebtn" mat-raised-button color = "primary">
+                        music box mode
+                    </button>
+                    <button style="margin-left: 6px;width: 45%;padding:2px" (click)="nav1(i)" 
+                    class="togglebtn" mat-raised-button color = "secondary">
+                        Listening mode
+                    </button>
+                </div>
             </div>
             <br>
             <mat-divider></mat-divider>
